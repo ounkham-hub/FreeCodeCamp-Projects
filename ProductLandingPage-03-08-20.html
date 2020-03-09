@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Lelee's Product Landing Page</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <style>
+    body {
+      background: #B3A4DB;
+      color: #fffaf0;
+      font-family: "arial";
+      text-align: left
+    }
+    h1 {
+      font-family: "arial black";
+    }
+    img {
+      width: 100px;
+    }
+    nav { 
+      top: 0;
+      right: 0;
+      position: fixed;
+    }
+ 
+   @media (min-height: 800px)
+   {
+      nav { 
+      top: 0;
+      left: 0;
+      position: fixed;
+    }
+     .flex-container {
+  display: flex;
+}
+  </style>
+</head>
+
+<body>
+
+  <main id="header">
+     <h1>Apple Inc.</h1>
+      <p id="description"> This my first attempt at creating a product landing page for Apple Inc.</p>
+      <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Apple_Computer_Logo_rainbow.svg/931px-Apple_Computer_Logo_rainbow.svg.png" alt="rainbow Apple logo"><br>
+    <nav id="nav-bar">
+    <ul class="nav">
+     <li>
+        <a class="nav-link" href="#history">History</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#products">Products</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#fordevelopers">For Developers</a>
+      </li>
+       <li>
+          <a class="nav-link" href="#submit">Submit</a>
+      </li>
+    </ul>
+    </nav>
+    
+    <video id="video" width="200" height="100" autoplay controls>
+      <source src="https://www.youtube.com/watch?v=2iRWCFetoxg" type="video/mp4">
+    </video>
+    
+    <section id="history">
+      <h2>History</h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </section>
+    
+    <section id="products">
+      <h2>Products</h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </section>
+    
+    <section id="fordevelopers">
+      <h2>For Developers</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </section>
+    
+    <h2>For More Information</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label id="email-label">Enter email address:</label> 
+      <input id="email" type =email name="email" placeholder="Your email" required>       
+     <input id="submit" type=submit name="submit" value="submit"> 
+      <br><br>
+    </form>
+    
+<div class="flex-container">
+  <div> </div>
+  <div> </div>
+  <div> </div>
+</div>
+    
+  </main>
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+</body>
+</html>
