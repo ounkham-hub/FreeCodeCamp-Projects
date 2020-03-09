@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Lelee's Personal Portfolio Page </title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <style>
+    body {
+      background: #D16A6A;
+      color: #fffaf0;
+      font-family: "verdana";
+      text-align: left
+    }
+    h1 {
+      font-family: "arial black";
+    }
+    nav { 
+      top: 0;
+      right: 0;
+      position: fixed;
+    }
+    @media (min-height: 800px)
+    {
+      nav { 
+      top: 0;
+      left: 0;
+      position: fixed;
+    }
+    navbar {
+     height: 15vh;
+     background-color: #ffff80;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     font-weight: 700;
+    }
+    welcome-section {
+      background-color: #b3b300;
+      height: 85vh;
+      padding-top: 50px;
+      margin-top:15vh;
+     }
+  </style>
+</head>
+
+<body>
+  <div>
+      <nav id="navbar">
+        <ul class="nav">
+          <li>
+            <a class="nav-link" href="#project-tile">Project #1</a>
+           </li>
+           <li>
+            <a class="nav-link" href="#project-tile2">Project #2</a>
+           </li>
+            <li>
+              <a class="nav-link" href="#project-tile3">Project #3</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#profile-link">Profile Link</a>
+            </li>
+          </ul>
+        </nav>
+  
+    <section id="welcome-section">
+     <h1>Hello World, my name is Lelee!</h1>
+      <p id="description"> A simplified page created to showcase projects.</p>
+  </section>
+  </div>
+    <div id="projects">
+      <section id="project-tile" class="project-tile">
+      <h2>Project 1</h2>
+        <a id="profile-link" href="https://github.com/ounkham-hub" target="_blank"> My GitHub Porfolio </a><br><br>
+      
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </section>
+   
+    <section id="product-tile2">
+      <h2>Project #2</h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </section>
+    
+    <section id="product-tile3">
+      <h2>Project #3</h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </section>
+    </div>
+
+
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+</body>
+</html>
